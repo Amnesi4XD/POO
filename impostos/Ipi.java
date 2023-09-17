@@ -7,6 +7,6 @@ public class Ipi extends Imposto
             return operacaoComerical.valorOperacao * 0.25;
         }
 
-        return -1;
+        return 0;
     }
 }

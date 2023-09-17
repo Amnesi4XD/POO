@@ -11,10 +11,9 @@ public class Main {
         operacoes.add(new OperacaoComerical("produto", 40.99));
         operacoes.add(new OperacaoComerical("produto", 55.99));
 
-
-        for (OperacaoComerical operacao : operacoes)
+        for (OperacaoComerical operacaoComerical : operacoes)
         {
-            calcularIm
+            operacaoComerical.describe();
         }
     
     }

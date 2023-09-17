@@ -7,6 +7,6 @@ public class Iss extends Imposto
            return operacaoComerical.valorOperacao * 0.046;
         }
 
-        return -1;
+        return 0;
     }
 }

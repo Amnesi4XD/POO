@@ -1,7 +1,13 @@
 public class Icms extends Imposto
 {
-    double calcularImposto(double valor)
+    double calcularImposto(OperacaoComerical operacaoComerical)
     {
-        return valor * 0.17;
+        if (operacaoComerical.tipoOperacao == "produto")
+        {
+            return operacaoComerical.valorOperacao * 0.17;
+        }
+
+         return 0;
+
     }
 }
